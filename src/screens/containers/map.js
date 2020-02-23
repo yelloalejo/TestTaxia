@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, SafeAreaView} from 'react-native';
+import {View, StyleSheet, SafeAreaView, Dimensions} from 'react-native';
 import MapboxGL from '@react-native-mapbox-gl/maps';
 
 MapboxGL.setAccessToken(
   'pk.eyJ1IjoieWVsbG9hbGVqbyIsImEiOiJjazZ5a3dsMDgwczJnM2RydmNzcTBkaGRjIn0.J9D7xNL8jRLwm69F4ga9Og',
 );
-MapboxGL.setConnected(true);
+var {height} = Dimensions.get('window');
 
 export default class Map extends Component {
   componentDidMount() {
@@ -14,7 +14,7 @@ export default class Map extends Component {
 
   render() {
     return (
-      <SafeAreaView style={styles.page}>
+      <SafeAreaView>
         <View style={styles.container}>
           <MapboxGL.MapView style={styles.map} />
         </View>
@@ -23,15 +23,8 @@ export default class Map extends Component {
   }
 }
 const styles = StyleSheet.create({
-  page: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
   container: {
-    height: 600,
-    width: 350,
+    height: height,
   },
   map: {
     flex: 1,

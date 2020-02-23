@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F612A7E645C530D8C568F37 /* Pods_TestTaxia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E862F953330D7C03ADD31247 /* Pods_TestTaxia.framework */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* TestTaxiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestTaxiaTests.m */; };
-		68A39ACCBD0FF0C2EA57EE97 /* libPods-TestTaxiaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D316128ACC6181846C0469CB /* libPods-TestTaxiaTests.a */; };
-		BB722AAB929CC7C211ED59ED /* libPods-TestTaxia-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82479A173F76544B947AB0AD /* libPods-TestTaxia-tvOSTests.a */; };
-		C57045797E2F0AE27F80A55A /* libPods-TestTaxia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E9087FFE478E94F0A01BC3 /* libPods-TestTaxia.a */; };
-		CD610469E6AC0B36D676FD7C /* libPods-TestTaxia-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C872B51A447F4CB4E8451B /* libPods-TestTaxia-tvOS.a */; };
+		6AC2C5798708EEDE70174F32 /* Pods_TestTaxiaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C602996D8D951F5AF4E0CC /* Pods_TestTaxiaTests.framework */; };
+		B644EDECA76A6C90B13C3A08 /* Pods_TestTaxia_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353DB6C4DF633E04FF56B137 /* Pods_TestTaxia_tvOSTests.framework */; };
+		B9FEBB85D18AB2CE9A9CDDB9 /* Pods_TestTaxia_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31069F243064DB12C05085AA /* Pods_TestTaxia_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,16 +53,16 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TestTaxia/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* TestTaxia-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestTaxia-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TestTaxia-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestTaxia-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38C872B51A447F4CB4E8451B /* libPods-TestTaxia-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTaxia-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31069F243064DB12C05085AA /* Pods_TestTaxia_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaxia_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		353DB6C4DF633E04FF56B137 /* Pods_TestTaxia_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaxia_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEFD2EC0F89B6FCCEEF334A /* Pods-TestTaxiaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaxiaTests.release.xcconfig"; path = "Target Support Files/Pods-TestTaxiaTests/Pods-TestTaxiaTests.release.xcconfig"; sourceTree = "<group>"; };
+		69C602996D8D951F5AF4E0CC /* Pods_TestTaxiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaxiaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E489D5632422B1A7909A56 /* Pods-TestTaxia-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaxia-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TestTaxia-tvOS/Pods-TestTaxia-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		766A7C0F296A333258E1A570 /* Pods-TestTaxiaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaxiaTests.debug.xcconfig"; path = "Target Support Files/Pods-TestTaxiaTests/Pods-TestTaxiaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		780FBD6A78FD4E8B40162A83 /* Pods-TestTaxia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaxia.release.xcconfig"; path = "Target Support Files/Pods-TestTaxia/Pods-TestTaxia.release.xcconfig"; sourceTree = "<group>"; };
-		82479A173F76544B947AB0AD /* libPods-TestTaxia-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTaxia-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91E9087FFE478E94F0A01BC3 /* libPods-TestTaxia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTaxia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDAA5F9686F83AC766998AB /* Pods-TestTaxia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaxia.debug.xcconfig"; path = "Target Support Files/Pods-TestTaxia/Pods-TestTaxia.debug.xcconfig"; sourceTree = "<group>"; };
 		C9CF49E78948A13CC87FA97A /* Pods-TestTaxia-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaxia-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TestTaxia-tvOS/Pods-TestTaxia-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D316128ACC6181846C0469CB /* libPods-TestTaxiaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTaxiaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E862F953330D7C03ADD31247 /* Pods_TestTaxia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaxia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC58D74C57AEC7FA6969043 /* Pods-TestTaxia-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaxia-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TestTaxia-tvOSTests/Pods-TestTaxia-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68A39ACCBD0FF0C2EA57EE97 /* libPods-TestTaxiaTests.a in Frameworks */,
+				6AC2C5798708EEDE70174F32 /* Pods_TestTaxiaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C57045797E2F0AE27F80A55A /* libPods-TestTaxia.a in Frameworks */,
+				1F612A7E645C530D8C568F37 /* Pods_TestTaxia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD610469E6AC0B36D676FD7C /* libPods-TestTaxia-tvOS.a in Frameworks */,
+				B9FEBB85D18AB2CE9A9CDDB9 /* Pods_TestTaxia_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB722AAB929CC7C211ED59ED /* libPods-TestTaxia-tvOSTests.a in Frameworks */,
+				B644EDECA76A6C90B13C3A08 /* Pods_TestTaxia_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				91E9087FFE478E94F0A01BC3 /* libPods-TestTaxia.a */,
-				38C872B51A447F4CB4E8451B /* libPods-TestTaxia-tvOS.a */,
-				82479A173F76544B947AB0AD /* libPods-TestTaxia-tvOSTests.a */,
-				D316128ACC6181846C0469CB /* libPods-TestTaxiaTests.a */,
+				E862F953330D7C03ADD31247 /* Pods_TestTaxia.framework */,
+				31069F243064DB12C05085AA /* Pods_TestTaxia_tvOS.framework */,
+				353DB6C4DF633E04FF56B137 /* Pods_TestTaxia_tvOSTests.framework */,
+				69C602996D8D951F5AF4E0CC /* Pods_TestTaxiaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,7 +231,6 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				954EC7938DEC6D9A6968CF92 /* [CP] Embed Pods Frameworks */,
-				88439F1BFA5794E68541A9A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -433,56 +432,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		88439F1BFA5794E68541A9A5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestTaxia/Pods-TestTaxia-resources.sh",
-				"${PODS_ROOT}/MapboxMobileEvents/MapboxMobileEvents/Resources/logger.html",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/logger.html",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTaxia/Pods-TestTaxia-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		954EC7938DEC6D9A6968CF92 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -490,21 +439,71 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestTaxia/Pods-TestTaxia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/29538FE3-EF92-3F4E-8387-E37D1ED304F4.bcsymbolmap",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/A927EC5D-2159-3CDB-B093-870116C5648E.bcsymbolmap",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/30826842-67C1-37CC-9078-660F37F80FCB.bcsymbolmap",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/A7E43BC5-8723-3536-923A-5E436F84DCCD.bcsymbolmap",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-mapbox-gl/react_native_mapbox_gl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
 				"${BUILT_PRODUCTS_DIR}/29538FE3-EF92-3F4E-8387-E37D1ED304F4.bcsymbolmap",
 				"${BUILT_PRODUCTS_DIR}/A927EC5D-2159-3CDB-B093-870116C5648E.bcsymbolmap",
 				"${BUILT_PRODUCTS_DIR}/30826842-67C1-37CC-9078-660F37F80FCB.bcsymbolmap",
 				"${BUILT_PRODUCTS_DIR}/A7E43BC5-8723-3536-923A-5E436F84DCCD.bcsymbolmap",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNVectorIcons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_mapbox_gl.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

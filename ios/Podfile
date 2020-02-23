@@ -1,8 +1,10 @@
 platform :ios, '9.0'
+use_frameworks!
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 target 'TestTaxia' do
   # Pods for TestTaxia
+  pod 'react-native-mapbox-gl', :path => '../node_modules/@react-native-mapbox-gl/maps'
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +36,6 @@ target 'TestTaxia' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-mapbox-gl', :path => '../node_modules/@react-native-mapbox-gl/maps'
 
   target 'TestTaxiaTests' do
     inherit! :search_paths
