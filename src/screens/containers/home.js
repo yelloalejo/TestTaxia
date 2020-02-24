@@ -33,10 +33,4 @@ class Home extends Component<props> {
     );
   }
 }
-/**
-<View>
-        <Header />
-        <CategoryList list={this.state.categoryList} />
-        <SuggestionList list={this.state.suggestionList} />
-      </View> */
 export default Home;

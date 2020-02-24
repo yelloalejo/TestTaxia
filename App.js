@@ -13,14 +13,11 @@ export default class App extends Component<Props> {
   render() {
     return (
       <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen name="Home" component={Home} />
+        <Stack.Navigator initialRouteName="Home">
           <Stack.Screen name="Map" component={Map} />
+          <Stack.Screen name="Home" component={Home} />
         </Stack.Navigator>
       </NavigationContainer>
     );
   }
 }
-/**
-<Map></Map>;
-*/

@@ -3,6 +3,7 @@ import {
   View,
   Alert,
   Text,
+  Button,
   StyleSheet,
   SafeAreaView,
   TouchableOpacity,
@@ -15,7 +16,7 @@ MapboxGL.setAccessToken(
   'pk.eyJ1IjoieWVsbG9hbGVqbyIsImEiOiJjazZ5a3dsMDgwczJnM2RydmNzcTBkaGRjIn0.J9D7xNL8jRLwm69F4ga9Og',
 );
 var {height} = Dimensions.get('window');
-
+const API_FETCH = 'algunaapi';
 export default class Map extends Component {
   state = {
     location: null,
@@ -39,7 +40,6 @@ export default class Map extends Component {
             <Text style={styles.welcome}>Find My Coords?</Text>
             <Text>Location: {this.state.location}</Text>
           </TouchableOpacity>
-
           <MapboxGL.MapView style={styles.map} centerCoordinates={[]} />
         </View>
       </SafeAreaView>
@@ -54,3 +54,20 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
+/**
+  <Button
+    title="Submit"
+    onPress={() => {
+      fetch(url, {
+        method: 'POST',
+        body: JSON.stringify(this.location),
+        headers: new Headers({
+          'alguna cabecera': 'info',
+        }),
+      })
+      .then(res => res.json())
+      .cath(error => console.error('Error:', error))
+      .then(response => console.log('Success:', response));
+    }}
+  /> 
+*/
