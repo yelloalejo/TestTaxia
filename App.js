@@ -25,12 +25,15 @@ export default class App extends Component<Props> {
     });
   }
   render() {
-    return <Map></Map>;
-  }
-}
-/**
-<Home>
+    return (
+      <Home>
         <Header />
         <CategoryList list={this.state.categoryList} />
         <SuggestionList list={this.state.suggestionList} />
-      </Home> */
+      </Home>
+    );
+  }
+}
+/**
+<Map></Map>;
+*/

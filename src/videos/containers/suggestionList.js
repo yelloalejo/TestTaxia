@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FlatList, Text, StyleSheet} from 'react-native';
+import {FlatList, TouchableOpacity, Text, StyleSheet} from 'react-native';
 import Layout from '../components/suggestionListLayout';
 import Empty from '../components/empty';
 import Separator from '../../sections/components/verticalSeparator';
@@ -10,7 +10,11 @@ class SuggestionList extends Component {
   renderEmtpy = () => <Empty text="No hay sugerencias :(" />;
   itemSeparator = () => <Separator />;
   renderItem = ({item}) => {
-    return <Suggestion {...item} />;
+    return (
+      <TouchableOpacity>
+        <Suggestion {...item} />
+      </TouchableOpacity>
+    );
   };
   render() {
     return (
