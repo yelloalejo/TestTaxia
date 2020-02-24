@@ -1,36 +1,23 @@
 import React, {Component} from 'react';
-import {Text} from 'react-native';
+import {Text, View} from 'react-native';
+import 'react-native-gesture-handler';
 
 import Home from './src/screens/containers/home';
-import Header from './src/sections/components/header';
-import SuggestionList from './src/videos/containers/suggestionList';
-import CategoryList from './src/videos/containers/categoryList';
-import API from './utils/api';
 import Map from './src/screens/containers/map';
 
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 type Props = {};
+const Stack = createStackNavigator();
 export default class App extends Component<Props> {
-  state = {
-    suggestionList: [],
-    categoryList: [],
-  };
-  async componentDidMount() {
-    const movies = await API.getSuggestion(10);
-    const categories = await API.getMovies();
-    console.log(movies);
-    console.log(categories);
-    this.setState({
-      suggestionList: movies,
-      categoryList: categories,
-    });
-  }
   render() {
     return (
-      <Home>
-        <Header />
-        <CategoryList list={this.state.categoryList} />
-        <SuggestionList list={this.state.suggestionList} />
-      </Home>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Map" component={Map} />
+        </Stack.Navigator>
+      </NavigationContainer>
     );
   }
 }

@@ -450,6 +450,10 @@
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/A7E43BC5-8723-3536-923A-5E436F84DCCD.bcsymbolmap",
 				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
 				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCMaskedView/RNCMaskedView.framework",
+				"${BUILT_PRODUCTS_DIR}/RNGestureHandler/RNGestureHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/RNReanimated/RNReanimated.framework",
+				"${BUILT_PRODUCTS_DIR}/RNScreens/RNScreens.framework",
 				"${BUILT_PRODUCTS_DIR}/RNVectorIcons/RNVectorIcons.framework",
 				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
 				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
@@ -471,6 +475,7 @@
 				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
 				"${BUILT_PRODUCTS_DIR}/react-native-geolocation/react_native_geolocation.framework",
 				"${BUILT_PRODUCTS_DIR}/react-native-mapbox-gl/react_native_mapbox_gl.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -485,6 +490,10 @@
 				"${BUILT_PRODUCTS_DIR}/A7E43BC5-8723-3536-923A-5E436F84DCCD.bcsymbolmap",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCMaskedView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNGestureHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNReanimated.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNScreens.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNVectorIcons.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
@@ -506,6 +515,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_geolocation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_mapbox_gl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_safe_area_context.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

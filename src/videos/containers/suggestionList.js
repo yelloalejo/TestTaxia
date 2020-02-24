@@ -1,17 +1,19 @@
 import React, {Component} from 'react';
-import {FlatList, TouchableOpacity, Text, StyleSheet} from 'react-native';
+import {FlatList, TouchableOpacity} from 'react-native';
 import Layout from '../components/suggestionListLayout';
 import Empty from '../components/empty';
 import Separator from '../../sections/components/verticalSeparator';
 import Suggestion from '../components/suggestion';
-
 class SuggestionList extends Component {
   keyExtractor = item => item.id.toString();
   renderEmtpy = () => <Empty text="No hay sugerencias :(" />;
   itemSeparator = () => <Separator />;
+  onPress = () => {
+    console.log('hello from suggestion');
+  };
   renderItem = ({item}) => {
     return (
-      <TouchableOpacity>
+      <TouchableOpacity onPress={this.onPress}>
         <Suggestion {...item} />
       </TouchableOpacity>
     );
